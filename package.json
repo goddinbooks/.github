@@ -1,0 +1,29 @@
+{
+  "name": "{{REVERSE_DOMAIN}}.{{PACKAGE_NAME}}",
+  "displayName": "{{AUTHOR_FRIENDLY_NAME}} {{PACKAGE_FRIENDLY_NAME}}",
+  "description": "{{DESCRIPTION}}",
+  "version": "1.0.0",
+  "author": {
+    "name": "{{AUTHOR_NAME}}",
+    "email": "{{AUTHOR_EMAIL}",
+    "url": "{{AUTHOR_WEBSITE}}"
+  },
+  "keywords": [
+    "{{AUTHOR}}"
+  ],
+  "homepage": "https://github.com/{{COMPANY}}/{{REPOSITORY_NAME}}.git",
+  "bugs": {
+    "url": "https://github.com/{{COMPANY}}/{{REPOSITORY_NAME}}/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/{{AUTHOR}}/{{REPOSITORY_NAME}}.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@{{AUTHOR}}"
+  },
+  "dependencies": {
+  },
+  "scripts": {
+  }
+}
